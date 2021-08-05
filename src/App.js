@@ -24,8 +24,10 @@ return (
    <Router>
      <Layout>
        <Switch>
-         <Route exact path='/'><Home setResult={setResult} valid={setValid}/></Route>
+         <>
+         <Route exact path='/Covid-19'><Home setResult={setResult} valid={setValid}/></Route>
          {(valid)?<Route exact path='/search'><Search Result={Result}/></Route>:<h1 align='center'>No Data Found..</h1>}
+         </>
        </Switch>
      </Layout>
    </Router>
