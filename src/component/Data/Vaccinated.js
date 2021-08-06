@@ -44,7 +44,7 @@ const Vaccinated=(props)=> {
         
    </Box>
    <Box mt={3}>
-   <Button variant="contained" color="primary" onClick={()=>{history.push('/')}}>
+   <Button variant="contained" color="primary" onClick={()=>{history.push('/Covid-19')}}>
       Home
   </Button>
   </Box>
